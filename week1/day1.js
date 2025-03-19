@@ -42,3 +42,16 @@ const isOddEvenSwitch = (number) => {
   
   
   isOddEvenWhile(1, 50);
+
+
+
+  const arr= new Map([
+    ["1","2"],
+    ["3","4"],
+    ["5","6"]
+  ])
+  arr.forEach((value,index)=>{
+    console.log(index,value)
+  })
+  console.log(arr.get(1));
+  
